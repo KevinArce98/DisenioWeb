@@ -1,0 +1,23 @@
+#imgSlide{
+	box-shadow: 2px 2px 0px 5px #DBD9D9;
+	border-radius: 10px;
+	display: block;
+}
+
+#imgMain{
+	float: left;
+}
+
+body{
+	color: orange;
+	
+}
+div{
+	color: red;
+}
+h1{
+	color: purple;
+}
+.titulo{
+	font: oblique bold 120% cursive;
+}

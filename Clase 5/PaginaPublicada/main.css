@@ -1,0 +1,47 @@
+.nav{
+	color: white;
+}
+
+.a{ 
+    color: #009DD4;
+    font-size: 21px;
+    font-family: Georgia;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+hr {
+  height: 2px;
+  background-color: #009DD4;
+}
+
+.info{
+	color: white;
+	font-family: Courier;
+	font-size: 19px;
+}
+.post{
+	color: white;
+	font-family: Georgia;
+	font-size: 15px;
+	width: 50%;
+}
+h1{
+	text-decoration: underline;
+	text-decoration-color: #CDB226;
+}
+.subtitle{
+	color: #CDB226;
+}
+
+#pageInfo{
+	color: white;
+	font-family: Georgia;
+	font-size: 15px;
+}
+.new{
+	font: bold;
+}
+body {
+    background-repeat: inherit;
+}
