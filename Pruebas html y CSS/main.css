@@ -1,0 +1,37 @@
+body{
+	background-color: black; 
+}
+
+h1, h2{
+	color: purple;
+}
+
+/*
+*= selector de todos lo que tenga parrafo
+*/
+p[name*="parrafo"]{
+color: lime;
+}
+
+/*identificador*/
+#numero1{
+	color: magenta;
+}
+
+/*
+pseudoclase nth-child
+odd = afecta a los impares
+even = afecta a los pares
+*/
+p:nth-child(odd){
+color: red;
+}
+
+p:nth-child(even){
+color: blue;
+}
+
+/*clases*/
+.prueba{
+	color: green;
+}
