@@ -1,0 +1,35 @@
+.nav{
+	background-color: #2C6F9E;
+
+}
+a.nav-item:not(.button) {
+	color: #FFFFFF;
+}
+#icon{
+	margin-top: 50px;
+	margin-bottom: 55px;
+}
+
+.nav-item{
+	background-color: #2C6F9E;
+}
+.footer{
+	margin-top: 20px;
+	padding: 15px;
+}
+li{
+	 padding: 5px;
+    margin-left: 35px;
+
+}
+h1{
+	font-size: 35px;
+	font-family: Georgia;
+}
+p, li{
+	font-size: 22px;
+}
+
+h2{
+	font-size: 25px;
+}

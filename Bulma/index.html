@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <nav class="nav ">
+        <div class="container">
+            <a class="nav-item" href="http://bulma.io">
+              <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma logo">
+            </a>
+          <div class="navbar-burger" data-target="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="nav-right nav-menu" id="navMenu">
+            <a class="nav-item" href="index.html">
+              Como Funciona
+            </a>
+            <a class="nav-item" href="beneficios.html">
+              Beneficios
+            </a>
+            <a class="nav-item" href="Caracteristicas.html">
+              Caracteristicas
+            </a>
+            <a class="nav-item" href="Diferencias.html">
+              Diferencias
+            </a>
+            <a class="nav-item " href="http://bulma.io/documentation/overview/start/">
+              Documentaci&oacute;n
+            </a>
+
+            <div class="nav-item">
+              <div class="field is-grouped">
+                <p class="control">
+                  <a class="tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://bulma.io" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&hashtags=bulmaio&url=http://bulma.io&via=jgthms">
+            <span class="icon"><i class="fa fa-twitter"></i></span><span>Tweet</span>
+          </a>
+                </p>
+                <p class="control">
+                  <a class="button is-primary" href="https://github.com/jgthms/bulma/archive/0.5.0.zip">
+                    <span class="icon">
+                      <i class="fa fa-download"></i>
+                    </span>
+                    <span>Descargar</span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <div class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <div class="has-text-centered">
+             <a href="#texto"><img src="images/bulma.png" alt="iconBulma" id="icon"></a>
+          </div>
+          <h1 class="has-text-primary has-text-centered ">BULMA</h1>
+          <p class="has-text-info has-text-centered">Un moderno Framework de CSS basado en Flexbox</p>
+              <a name="texto">
+                 <h2 class="has-text-info">¿Qu&eacute; es Bulma?</h2>
+                 <p>Bulma es un framework basado en Flexbox, en el que s&oacute;lo necesitas un archivo CSS para comenzar a utilizarlo en tus proyectos o puedes optar por la versi&oacute;n en la que descargas los archivos Sass y modificar las variables a tu gusto.</p>
+                  <br>
+                  <br>
+                      <h2 class="has-text-info">¿C&oacute;mo empezar?</h2>
+                      <p>Tenemos tres forma de instalarlo:</p>
+                      <ol>
+                        <li>Usando NPM (se necesita NODEJS):  npm install bulma</li>
+                        <li>Usa el cdnjs CDN: 
+                          <input type="text" class="input is-primary " value="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.0.23/css/bulma.min.css" id="CDN" size="40" readonly>
+                          <button class="button is-info is-small boton" onclick="copyClick(CDN)">Copiar Link</button>
+                        </li>
+                        <li>Descarga desde el  repositorio: <a href="https://github.com/jgthms/bulma/tree/master/css" title="Download">Descargar</a></li>
+                      </ol>
+                      <p>… y ¡listo! puedes comenzar a usarlo.</p>
+              </a>
+          </div>
+       </div>
+    </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="content has-text-centered">
+            <p>
+              <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. This website was made by <a href="https://github.com/KevinArce98">Kevin</a>.
+            </p>
+            <p>
+              <a class="icon" href="https://github.com/jgthms/bulma">
+                <i class="fa fa-github"></i>
+              </a>
+            </p>
+          </div>
+        </div>
+      </footer>
+    <script src="js/jquery.js" ></script>
+    <script src="js/responsive.js"></script>
+    <script src="js/copiar.js"></script>
+  </body>
+</html>
